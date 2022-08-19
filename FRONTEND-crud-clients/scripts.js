@@ -57,7 +57,7 @@ $("#post").click(function (e) {
                 alert("Usuário cadastrado com sucesso")
             }
         });
-        clearFields();
+        setTimeout(clearFields(), 500);
     });
 });
 
@@ -131,7 +131,7 @@ $("#put").click(function (e) {
                 alert("Usuário atualizado com sucesso")
             }
         });
-        clearFields();
+        setTimeout(clearFields(), 500);
     });
 });
 
@@ -165,6 +165,6 @@ $("#delete").click(function (e) {
             }
         });
         alert("Usuário deletado com sucesso");
-        clearFields();
+        setTimeout(clearFields(), 500);
     });
 });
