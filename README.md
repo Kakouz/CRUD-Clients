@@ -10,7 +10,7 @@
 - [x] Atualizar informações de um cliente
 - [x] Deletar dados do cliente
 
-#### As informações são salvas no banco de dados MySQL
+### As informações são salvas no banco de dados MySQL
 
 Como rodar a aplicação?
 - Configurar no application.properties a rota para o seu banco de dados MySQL, configurando usuário e senha.
